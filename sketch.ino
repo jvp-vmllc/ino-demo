@@ -11,7 +11,7 @@ void setup() {
 void loop() { 
   if (Serial.available () > 0){
     data1 = Serial.readStringUntil(',');
-    data1 = Serial.readStringUntil('\n');
+    data2 = Serial.readStringUntil('\n');
     Serial.println(data1);
     Serial.println(data2);
   }
