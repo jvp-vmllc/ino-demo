@@ -13,6 +13,6 @@ void loop() {
     Serial.println(data);
   }
   
-  value = analogRead(ANALOG_ PIN);
+  value = analogRead(ANALOG_PIN);
   Serial.println(value);
 }
