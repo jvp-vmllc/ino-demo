@@ -17,6 +17,10 @@ void loop() {
   
   value = analogRead(ANALOG_PIN);
   Serial.println(value);
+
+  if (value == 1023){
+    Seria.println("Exceeds the maximumm allowable bit reading!");
+  }
 }
 
 String addTwoNum(String data1, String data2){
