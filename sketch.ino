@@ -1,7 +1,8 @@
-#define ANALOG_PIN A0
-int value;
-String data1;
-String data2;
+#define ANALOG_PIN_0 A0
+#define ANALOG_PIN_1 A1
+
+int value_0;
+int value_1;
 
 void setup() {
   Serial.begin(9600);
@@ -18,7 +19,13 @@ void loop() {
   value = analogRead(ANALOG_PIN);
   Serial.println(value);
 
-  if (value == 1023){
+  value_0 = analogRead(ANALOG_PIN_0);
+  Serial.println(value_0);
+
+  value_1 = analogRead(ANALOG_PIN_1);
+  Serial.println(value_1);
+
+  if (value_1 == 1023){
     Seria.println("Exceeds the maximumm allowable bit reading!");
   }
 }
