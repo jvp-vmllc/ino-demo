@@ -1,5 +1,8 @@
-#define ANALOG_PIN A0
-int value;
+#define ANALOG_PIN_0 A0
+#define ANALOG_PIN_1 A1
+
+int value_0;
+int value_1;
 
 void setup() {
   Serial.begin(9600);
@@ -7,6 +10,9 @@ void setup() {
 }
 
 void loop() {
-  value = analogRead(ANALOG_ PIN);
-  Serial.println(value);
+  value_0 = analogRead(ANALOG_PIN_0);
+  Serial.println(value_0);
+
+  value_1 = analogRead(ANALOG_PIN_1);
+  Serial.println(value_1);
 }
