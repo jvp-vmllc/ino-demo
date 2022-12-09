@@ -1,5 +1,8 @@
 #define ANALOG_PIN_0 A0
 #define ANALOG_PIN_1 A1
+#define INTERRUPT_PIN_0 D2
+#define INTERRUPT_PIN_1 D3
+#define BUILT_IN_LED D13
 
 int value_0;
 int value_1;
@@ -10,6 +13,7 @@ String data2;
 void setup() {
   Serial.begin(9600);
   Serial.println("Hello World!");
+  pinMode(BUILT_IN_LED, OUTPUT);
 }
 
 void loop() { 
@@ -32,6 +36,8 @@ void loop() {
   if (value_1 == 1023){
     Serial.println("Exceeds the maximumm allowable for A1");
   }
+
+  digitalWrite(BUILT_IN_LED, HIGH);
 
 }
 
