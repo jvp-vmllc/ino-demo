@@ -4,6 +4,9 @@
 int value_0;
 int value_1;
 
+String data1;
+String data2;
+
 void setup() {
   Serial.begin(9600);
   Serial.println("Hello World!");
