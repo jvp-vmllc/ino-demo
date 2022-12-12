@@ -1,3 +1,4 @@
-# My GIT Training
+# My GIT Training 💪
 This is me mastering the the Git and GitHub Bootcamp.
-Mastering? **Should I? hmmm...**
+Mastering? 
+**Should I? hmmm...**
