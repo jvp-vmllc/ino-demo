@@ -1,0 +1,10 @@
+AVR       DIGITAL
+_________________
+PD0       D0
+PD1       D1
+PD2       D2
+PD3       D3
+PD4       D4
+PD5       D5
+PD6       D6
+PD7       D7
