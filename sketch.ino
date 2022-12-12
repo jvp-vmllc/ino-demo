@@ -29,15 +29,19 @@ void loop() {
   value_1 = analogRead(ANALOG_PIN_1);
   Serial.println(value_1);
 
+digitalWrite(BUILT_IN_LED, HIGH);
+
   if (value_0 == 1023){
     Serial.println("Exceeds the maximumm allowable bit A0");
+    delay(100);
   }  
 
   if (value_1 == 1023){
     Serial.println("Exceeds the maximumm allowable for A1");
+    delay(250);
   }
 
-  digitalWrite(BUILT_IN_LED, HIGH);
+  digitalWrite(BUILT_IN_LED, LOW);
 
 }
 
