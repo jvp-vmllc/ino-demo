@@ -8,3 +8,10 @@ PD4       D4
 PD5       D5
 PD6       D6
 PD7       D7
+
+PC0       A0
+PC1       A1
+PC2       A2
+PC3       A3
+PC4       A4
+PC5       A5
