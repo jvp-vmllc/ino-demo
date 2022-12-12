@@ -9,6 +9,13 @@ PD5       D5
 PD6       D6
 PD7       D7
 
+PB0       D8
+PB1       D9
+PB2       D10
+PB3       D11
+PB4       D12
+PB5       D13
+
 PC0       A0
 PC1       A1
 PC2       A2
